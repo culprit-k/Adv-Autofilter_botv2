@@ -41,7 +41,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '⭕ OUR CHANNEL LINKS ⭕', url="https://t.me/MalluMovies_Links"
+                                    '⭕ OUR CHANNEL LINKS ⭕', url="https://t.me/movie_house_5"
                                 )
                         ]
                     ]
@@ -63,7 +63,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '⭕ OUR CHANNEL LINKS ⭕', url="https://t.me/MalluMovies_Links"
+                                    '⭕ OUR CHANNEL LINKS ⭕', url="https://t.me/movie_house_5"
                                 )
                         ]
                     ]
@@ -85,7 +85,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '⭕ OUR CHANNEL LINKS ⭕', url="https://t.me/MalluMovies_Links"
+                                    '⭕ OUR CHANNEL LINKS ⭕', url="https://t.me/movie_house_5"
                                 )
                         ]
                     ]
@@ -98,12 +98,12 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('👥 𝐆𝐑𝐎𝐔𝐏 - 𝟏', url='https://t.me/joinchat/CVCri_SxlmxiZGI1'),
-        InlineKeyboardButton('𝐆𝐑𝐎𝐔𝐏 - 𝟐 👥', url ='https://t.me/joinchat/MDKvNo007xM4NWQ1')
+        InlineKeyboardButton('👥 𝐆𝐑𝐎𝐔𝐏 - 𝟏', url='https://t.me/Movie_House_1'),
+        InlineKeyboardButton('𝐆𝐑𝐎𝐔𝐏 - 𝟐 👥', url ='https://t.me/Movie_House_1')
     ],[
-        InlineKeyboardButton('⭕ 𝐎𝐔𝐑 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐋𝐈𝐍𝐊𝐒 ⭕', url='https://t.me/joinchat/2yeZNjQ9osg0MzQ1')
+        InlineKeyboardButton('⭕ 𝐎𝐔𝐑 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐋𝐈𝐍𝐊𝐒 ⭕', url='https://t.me/movie_house_5')
     ],[
-        InlineKeyboardButton('🖥️ 𝐍𝐄𝐖 𝐎𝐓𝐓 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 🖥️', url='https://t.me/joinchat/AAAAAE-_9UxMnUfIe4l0sQ')
+        InlineKeyboardButton('🖥️ 𝐍𝐄𝐖 𝐎𝐓𝐓 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 🖥️', url='https://t.me/NewDvdUpdatesKerala')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
