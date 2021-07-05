@@ -10,7 +10,7 @@ class Translation(object):
 
 𝐅𝐨𝐫 𝐌𝐨𝐫𝐞 𝐃𝐞𝐭𝐚𝐢𝐥𝐬 𝐂𝐥𝐢𝐜𝐤 /Help 😀
 
-@Movie_House_1 , @movie_house_5
+@Movie_House_Group_2 , @Movie_House_1
 </b>"""
 
     
@@ -44,7 +44,7 @@ class Translation(object):
             
             -> <code>Status</code> - Button Will Shows The Stats Of Your Channel
             
-<b>@Movie_House_1</b> , <b>@movie_house_5</b>
+<b>@Movie_House_Group_2</b> , <b>@Movie_House_1</b>
 """
     
     ABOUT_TEXT = """<b>⭕ Name</b> : <b>Auto Filter Bot</b>
