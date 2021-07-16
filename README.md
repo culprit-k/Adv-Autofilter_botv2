@@ -74,4 +74,4 @@ To deploy me on heroku, use below button:
 ## FOLLOW ME ON 
 
 
- [![INSTAGRAM](https://telegra.ph/file/8c2259a6278418290582e.png)](https://www.instagram.com/___abhijith_____/)
+ [![INSTAGRAM](https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png)](https://www.instagram.com/___abhijith_____/)
