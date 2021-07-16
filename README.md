@@ -59,7 +59,7 @@ OR
 
 * ->__Your APP ID And API Harsh From [Telegram](http://www.my.telegram.org) or [@UseTGXBot](http://www.telegram.dog/UseTGXBot)__
 
-* ->__Your User Session String Obtained From [@PyrogramStringBot](http://www.telegram.dog/PyrogramStringBot)__
+* ->__Your User Session String Obtained From [REPLIT](https://replit.com/@culprit009/httpsgithubcomculprit-kPro-AutoFilter-botv2-1)__
 
 * ->__Mongo DB URL Obtained From [Mongo DB](http://www.mongodb.com)__
 
@@ -70,4 +70,6 @@ To deploy me on heroku, use below button:
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fculprit-k%2FAdv-Autofilter_botv2)
 
-   
+
+##FOLLOW ME ON 
+ [![INSTAGRAM](https://telegra.ph/file/a2e5cbd0c3d603e619b46.jpg)](https://www.instagram.com/___abhijith_____/)
