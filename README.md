@@ -74,11 +74,11 @@ To deploy me on heroku, use below button:
 ## FOLLOW ME ON 
 
 
- [![INSTAGRAM](https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png)](https://www.instagram.com/___abhijith_____/)
+ [![INSTAGRAM](https://user-images.githubusercontent.com/83399769/125901650-3b72d435-1f05-48f8-b77e-2ca545447ddf.png)](https://www.instagram.com/___abhijith_____/)
 
 
  [![TELEGRAM](https://user-images.githubusercontent.com/83399769/125900878-0a9c4a24-cecc-4f83-b51f-e6f96b9b315d.png)](https://t.me/abhijith876)
  
  
- [![GITHUB](https://user-images.githubusercontent.com/83399769/125901371-76ff178d-1da9-4ff4-871a-e075d7b39ee0.png)](https://github.com/culprit-k)
+ [![GITHUB](https://user-images.githubusercontent.com/83399769/125901570-020cdaa9-c3ba-4623-a2b4-e0cb70a278fc.png)](https://github.com/culprit-k)
 
