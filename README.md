@@ -78,7 +78,7 @@ To deploy me on heroku, use below button:
 
 
 
-[![TELEGRAM](https://user-images.githubusercontent.com/83399769/125900878-0a9c4a24-cecc-4f83-b51f-e6f96b9b315d.png)](https://t.me/abhijith876)
+[![TELEGRAM](https://user-images.githubusercontent.com/83399769/125900878-0a9c4a24-cecc-4f83-b51f-e6f96b9b315d.png)](http://www.telegram.dog/abhijith876)
  
  
  
