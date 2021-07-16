@@ -75,6 +75,6 @@ To deploy me on heroku, use below button:
 
 
  [![INSTAGRAM](https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png)](https://www.instagram.com/___abhijith_____/)
- ![image](https://user-images.githubusercontent.com/83399769/125899556-313f5eec-e0b8-4f32-ac71-9eecd266eaac.png)
 
- [![TELEGRAM](https://user-images.githubusercontent.com/83399769/125899556-313f5eec-e0b8-4f32-ac71-9eecd266eaac.png)](https://t.me/abhijith876)
+
+ [![TELEGRAM](![image](https://user-images.githubusercontent.com/83399769/125900653-d76302d6-7138-447f-9561-0882b5b67b61.png)](https://t.me/abhijith876)
