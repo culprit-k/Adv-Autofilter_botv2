@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 # (c) @AlbertEinsteinTG
 
-from pyrogram import Client
+from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
-from bot import Translation, filters # pylint: disable=import-error
+from bot import Translation, LOGGER # pylint: disable=import-error
 from bot.database import Database # pylint: disable=import-error
 
 db = Database()
