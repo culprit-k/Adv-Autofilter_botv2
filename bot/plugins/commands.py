@@ -142,39 +142,3 @@ async def about(bot, update):
     
 await update.reply_sticker(sticker="CAACAgEAAxkBAAJEemDQhN67WfA0jR_5ftZStaRMR20YAALKAAN-3IBGwOBvi-NZUuMeBA")
 
-@Client.on_message(filters.command(["start"]) & filters.private, group=1)
-async def start_not_joined(bot, update):
-
-    try:
-        file_uid = update.command[1]
-    except IndexError:
-        file_uid = False
-    if file_uid:
-        tryagain = f'https://t.me/{bot.username}?start={file_uid}'
-        reply_markup = InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton(
-                        text = '♀️Jᴏɪɴ Oᴜʀ Cʜᴀɴɴᴇʟ♀️',
-                        url = bot.invitelink
-                    )
-                ],
-                [
-                    InlineKeyboardButton(
-                        text = '🔥 Tʀʏ Aɢᴀɪɴ 🔥',
-                        url = tryagain
-                    )
-                ]
-            ]
-        )
-        await bot.send_message(
-            chat_id=update.chat.id,
-            text=Translation.FORCE_SUBTEXT.format(
-                tryagain = tryagain,
-                invitelink = bot.invitelink
-            ),
-            reply_markup=reply_markup,
-            parse_mode="html",
-            reply_to_message_id=update.message_id,
-            disable_web_page_preview=True
-        )    
