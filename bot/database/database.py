@@ -1,4 +1,4 @@
-mport os
+import os
 import motor.motor_asyncio # pylint: disable=import-error
 from bot import DB_URI
 
