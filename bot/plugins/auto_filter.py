@@ -200,10 +200,10 @@ async def auto_filter(bot, update):
             
         reply_markup = InlineKeyboardMarkup(result[0])
 
-        try:
+       try:
             await bot.send_message(
                 chat_id = update.chat.id,
-                text=f"Found {(len_results)} Results For Your Query: <code>{query}</code>",
+                text=f"<b>Found</b> <b>{(len_results)}</b> <b>Results For Your Query:</b> <code>{query}</code> 👇 \n\n<b>Ⓜ️ 𝘛𝘌𝘈𝘔 MOVIE HOUSE</b>",
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
