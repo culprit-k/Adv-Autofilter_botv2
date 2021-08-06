@@ -4,12 +4,12 @@
 
 from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
-from bot import Translation, LOGGER # pylint: disable=import-error
+from bot import Translation # pylint: disable=import-error
 from bot.database import Database # pylint: disable=import-error
 
 db = Database()
 
-@Client.on_message(filters.command(["start"]) & filters.private & filters.joined, group=1)
+@Client.on_message(filters.command(["start"]) & filters.private, group=1)
 async def start(bot, update):
     
     try:
@@ -27,21 +27,18 @@ async def start(bot, update):
         
         if file_type == "document":
         
-            msg = await bot.send_document(
+            await bot.send_document(
                 chat_id=update.chat.id,
                 document = file_id,
-                caption = '',
+                caption = caption,
                 parse_mode="html",
-                reply_to_message_id=update.message_id
-            )
-            await msg.edit_caption(
-                caption = f"<b>{msg.document.file_name}</b>",
+                reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    '⭕ OUR CHANNEL LINKS ⭕', url="https://t.me/MH_linkzz"
+                                    '⭕ OUR CHANNEL LINKS ⭕', url="https://t.me/MovieHouse_Linkz"
                                 )
                         ]
                     ]
@@ -50,20 +47,17 @@ async def start(bot, update):
 
         elif file_type == "video":
         
-            msg = await bot.send_video(
+            await bot.send_video(
                 chat_id=update.chat.id,
                 video = file_id,
-                caption = '',
-                parse_mode="html"
-            )
-            await msg.edit_caption(
-                caption = f"<b>{msg.video.file_name}</b>",
+                caption = caption,
+                parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    '⭕ OUR CHANNEL LINKS ⭕', url="https://t.me/MH_linkzz"
+                                    '⭕ OUR CHANNEL LINKS ⭕', url="https://t.me/MovieHouse_Linkz"
                                 )
                         ]
                     ]
@@ -72,20 +66,17 @@ async def start(bot, update):
             
         elif file_type == "audio":
         
-            msg = await bot.send_audio(
+            await bot.send_audio(
                 chat_id=update.chat.id,
                 audio = file_id,
-                caption = '',
-                parse_mode="html"
-            )
-            await msg.edit_caption(
-                caption = f"<b>{msg.audio.file_name}</b>",
+                caption = caption,
+                parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    '⭕ OUR CHANNEL LINKS ⭕', url="https://t.me/MH_linkzz"
+                                    '⭕ OUR CHANNEL LINKS ⭕', url="https://t.me/MovieHouse_Linkz"
                                 )
                         ]
                     ]
@@ -97,25 +88,25 @@ async def start(bot, update):
         
         return
 
-    buttons = [[
+   buttons = [[
         InlineKeyboardButton('👥 𝐆𝐑𝐎𝐔𝐏 - 𝟏', url='https://t.me/Movie_House_1'),
         InlineKeyboardButton('𝐆𝐑𝐎𝐔𝐏 - 𝟐 👥', url ='https://t.me/Movie_House_Group_2')
     ],[
-        InlineKeyboardButton('⭕ 𝐎𝐔𝐑 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐋𝐈𝐍𝐊𝐒 ⭕', url='https://t.me/MH_linkzz')
+        InlineKeyboardButton('⭕ 𝐎𝐔𝐑 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐋𝐈𝐍𝐊𝐒 ⭕', url='https://t.me/MovieHouse_Linkz')
     ],[
         InlineKeyboardButton('🖥️ 𝐍𝐄𝐖 𝐎𝐓𝐓 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 🖥️', url='https://t.me/NewDvdUpdatesKerala')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
-   await update.reply_sticker(sticker="CAACAgEAAxkBAAJEemDQhN67WfA0jR_5ftZStaRMR20YAALKAAN-3IBGwOBvi-NZUuMeBA")
+    await update.reply_sticker(sticker="CAACAgEAAxkBAAJEemDQhN67WfA0jR_5ftZStaRMR20YAALKAAN-3IBGwOBvi-NZUuMeBA")
 
 
 @Client.on_message(filters.command(["help"]) & filters.private, group=1)
 async def help(bot, update):
     buttons = [[
-        InlineKeyboardButton('🏘️ Home', callback_data='start'),
-        InlineKeyboardButton('About 🛡️', callback_data='about')
+        InlineKeyboardButton('Home ⚡', callback_data='start'),
+        InlineKeyboardButton('About 🚩', callback_data='about')
     ],[
         InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]
@@ -135,10 +126,9 @@ async def help(bot, update):
 async def about(bot, update):
     
     buttons = [[
-        InlineKeyboardButton('🏘️ Home', callback_data='start'),
+        InlineKeyboardButton('Home ⚡', callback_data='start'),
         InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     
-await update.reply_sticker(sticker="CAACAgEAAxkBAAJEemDQhN67WfA0jR_5ftZStaRMR20YAALKAAN-3IBGwOBvi-NZUuMeBA")
-
+    await update.reply_sticker(sticker="CAACAgEAAxkBAAJEemDQhN67WfA0jR_5ftZStaRMR20YAALKAAN-3IBGwOBvi-NZUuMeBA")
