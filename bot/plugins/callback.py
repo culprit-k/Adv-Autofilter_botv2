@@ -1597,13 +1597,13 @@ async def cb_about(bot, update: CallbackQuery):
     
     if user_id not in VERIFY.get(str(chat_id)):
         return
-
-     text=f"<i><u>Bot's Status</u></i>\n"
+    
+    text=f"<i><u>Bot's Status</u></i>\n"
     text+=f"\n<b><i>Bot's Uptime:</i></b> <code>{time_formatter(time.time() - start_uptime)}</code>\n"
     text+=f"\n<b><i>Bot Funtion:</i></b> <i>Auto Filter Files</i>\n"
     text+=f"""\n<b><i>Bot Support:</i></b> <a href="https://t.me/Movie_House_1">@Movie_House_1</a>\n"""
     text+="""\n<b><i>Source Code:</i></b> <a href="https://github.com/culprit-k/Adv-Autofilter_botv2">Source</a>"""
-
+    
     buttons = [
         [
             InlineKeyboardButton
