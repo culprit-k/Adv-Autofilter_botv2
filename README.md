@@ -68,20 +68,6 @@ OR
 ## Deploy
 To deploy me on heroku, use below button:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fculprit-k%2FAdv-Autofilter_botv2)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Telegram-Bot-Developers/Adv-Autofilter_botv2)
 
-
-## FOLLOW ME ON 
-
-
-[![INSTAGRAM](https://user-images.githubusercontent.com/83399769/125901984-02111f12-3977-46b5-8015-4c8c1712a339.png)](https://www.instagram.com/___abhijith_____/)
-
-
-
-[![TELEGRAM](https://user-images.githubusercontent.com/83399769/125900878-0a9c4a24-cecc-4f83-b51f-e6f96b9b315d.png)](http://www.telegram.dog/abhijith876)
- 
- 
- 
-
-[![GITHUB](https://user-images.githubusercontent.com/83399769/125901570-020cdaa9-c3ba-4623-a2b4-e0cb70a278fc.png)](https://github.com/culprit-k)
 

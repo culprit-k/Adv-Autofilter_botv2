@@ -7,8 +7,8 @@
         "Filter",
         "Mongo DB"
     ],
-    "website": "https://github.com/culprit-k",
-    "repository": "https://github.com/culprit-k/Adv-Autofilter_botv2",
+    "website": "https://github.com/orgs/Telegram-Bot-Developers",
+    "repository": "https://github.com/Telegram-Bot-Developers/Adv-Autofilter_botv2",
     "success_url": "https://telegram.dog/Movie_House_1",
     "env": {
         "APP_ID": {
